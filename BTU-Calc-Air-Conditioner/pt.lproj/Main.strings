@@ -1,0 +1,22 @@
+/*Título do navigation*/
+"2Jq-Tl-jla.title" = "Calculadora de BTUs";
+
+/*Seção: Total de área em m2*/
+"4d9-NR-IE1.headerTitle" = "Total de área em m2";
+"cDg-YH-STn"= "Exemplo: 42";
+
+/*Total de pessoas no ambiente*/
+"PfL-zg-QU2.headerTitle" = "Total de pessoas no ambiente";
+"FXV-5I-Rq6"= "Exemplo: 2";
+
+/*Total de Eletrônicos*/
+"XH1-fT-QeA.headerTitle" = "Total de eletrônicos";
+"kOi-o1-fUw"= "Exemplo: 3";
+
+/*O cômodo fica exposto ao sol?*/
+"qm0-Sh-kvF.headerTitle" = "O cômodo fica exposto ao sol?";
+
+/*A quantidade mínima de BTUs é:*/
+"3je-aZ-Art.headerTitle" = "A quantidade mínima de BTUs é:";
+
+

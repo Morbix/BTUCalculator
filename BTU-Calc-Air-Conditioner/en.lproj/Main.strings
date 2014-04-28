@@ -1,0 +1,21 @@
+/*Título do navigation*/
+"2Jq-Tl-jla.title" = "BTU Calculator";
+
+/*Seção: Total de área em m2*/
+"4d9-NR-IE1.headerTitle" = "Total area in m2. ";
+"cDg-YH-STn"= "Example: 42";
+
+/*Total de pessoas no ambiente*/
+"PfL-zg-QU2.headerTitle" = "Number of people in the environment.";
+"FXV-5I-Rq6"= "Example: 2";
+
+/*Total de Eletrônicos*/
+"XH1-fT-QeA.headerTitle" = "Number of electronics.";
+"kOi-o1-fUw"= "Example: 3";
+
+/*O cômodo fica exposto ao sol?*/
+"qm0-Sh-kvF.headerTitle" = "The room is exposed to the sun?";
+
+/*A quantidade mínima de BTUs é:*/
+"3je-aZ-Art.headerTitle" = "The minimum amount of BTUs is:";
+

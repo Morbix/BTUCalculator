@@ -14,13 +14,20 @@
 		E6D67C0B190CC6F400069FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D67C0A190CC6F400069FEA /* main.m */; };
 		E6D67C0F190CC6F400069FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D67C0E190CC6F400069FEA /* AppDelegate.m */; };
 		E6D67C12190CC6F400069FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D67C10190CC6F400069FEA /* Main.storyboard */; };
-		E6D67C15190CC6F400069FEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D67C14190CC6F400069FEA /* ViewController.m */; };
 		E6D67C17190CC6F400069FEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D67C16190CC6F400069FEA /* Images.xcassets */; };
 		E6D67C1E190CC6F500069FEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D67C1D190CC6F500069FEA /* XCTest.framework */; };
 		E6D67C1F190CC6F500069FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D67BFE190CC6F400069FEA /* Foundation.framework */; };
 		E6D67C20190CC6F500069FEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D67C02190CC6F400069FEA /* UIKit.framework */; };
 		E6D67C28190CC6F500069FEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6D67C26190CC6F500069FEA /* InfoPlist.strings */; };
 		E6D67C2A190CC6F500069FEA /* BTU_Calc_Air_ConditionerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D67C29190CC6F500069FEA /* BTU_Calc_Air_ConditionerTests.m */; };
+		E6D67C35190CC9EF00069FEA /* CalcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D67C34190CC9EF00069FEA /* CalcTableViewController.m */; };
+		E6D67C3A190CCBB600069FEA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6D67C3C190CCBB600069FEA /* Localizable.strings */; };
+		E6D67C48190CDC3400069FEA /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D67C47190CDC3400069FEA /* NSString+Common.m */; };
+		E6D67C54190CE31100069FEA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D67C53190CE31100069FEA /* CoreData.framework */; };
+		E6D67C56190CE31700069FEA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D67C55190CE31700069FEA /* AdSupport.framework */; };
+		E6D67C58190CE31F00069FEA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D67C57190CE31F00069FEA /* SystemConfiguration.framework */; };
+		E6D67C5F190CE52500069FEA /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D67C5E190CE52500069FEA /* libGoogleAnalyticsServices.a */; };
+		E6D67C61190CE56100069FEA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D67C60190CE56100069FEA /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +52,32 @@
 		E6D67C0D190CC6F400069FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6D67C0E190CC6F400069FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E6D67C11190CC6F400069FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E6D67C13190CC6F400069FEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E6D67C14190CC6F400069FEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E6D67C16190CC6F400069FEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E6D67C1C190CC6F500069FEA /* BTU-Calc-Air-ConditionerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BTU-Calc-Air-ConditionerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D67C1D190CC6F500069FEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E6D67C25190CC6F500069FEA /* BTU-Calc-Air-ConditionerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTU-Calc-Air-ConditionerTests-Info.plist"; sourceTree = "<group>"; };
 		E6D67C27190CC6F500069FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E6D67C29190CC6F500069FEA /* BTU_Calc_Air_ConditionerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTU_Calc_Air_ConditionerTests.m; sourceTree = "<group>"; };
+		E6D67C33190CC9EF00069FEA /* CalcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcTableViewController.h; sourceTree = "<group>"; };
+		E6D67C34190CC9EF00069FEA /* CalcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcTableViewController.m; sourceTree = "<group>"; };
+		E6D67C39190CCBAC00069FEA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
+		E6D67C3B190CCBB600069FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6D67C3D190CCBC000069FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6D67C3E190CCBC200069FEA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6D67C40190CCBC900069FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		E6D67C46190CDC3400069FEA /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		E6D67C47190CDC3400069FEA /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		E6D67C49190CE2D200069FEA /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		E6D67C4A190CE2D200069FEA /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		E6D67C4B190CE2D200069FEA /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		E6D67C4C190CE2D200069FEA /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		E6D67C4D190CE2D200069FEA /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		E6D67C4E190CE2D200069FEA /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		E6D67C53190CE31100069FEA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E6D67C55190CE31700069FEA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E6D67C57190CE31F00069FEA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E6D67C5E190CE52500069FEA /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		E6D67C60190CE56100069FEA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D67C61190CE56100069FEA /* libz.dylib in Frameworks */,
+				E6D67C58190CE31F00069FEA /* SystemConfiguration.framework in Frameworks */,
+				E6D67C56190CE31700069FEA /* AdSupport.framework in Frameworks */,
+				E6D67C54190CE31100069FEA /* CoreData.framework in Frameworks */,
+				E6D67C5F190CE52500069FEA /* libGoogleAnalyticsServices.a in Frameworks */,
 				E6D67C01190CC6F400069FEA /* CoreGraphics.framework in Frameworks */,
 				E6D67C03190CC6F400069FEA /* UIKit.framework in Frameworks */,
 				E6D67BFF190CC6F400069FEA /* Foundation.framework in Frameworks */,
@@ -101,6 +131,10 @@
 		E6D67BFD190CC6F400069FEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E6D67C60190CE56100069FEA /* libz.dylib */,
+				E6D67C57190CE31F00069FEA /* SystemConfiguration.framework */,
+				E6D67C55190CE31700069FEA /* AdSupport.framework */,
+				E6D67C53190CE31100069FEA /* CoreData.framework */,
 				E6D67BFE190CC6F400069FEA /* Foundation.framework */,
 				E6D67C00190CC6F400069FEA /* CoreGraphics.framework */,
 				E6D67C02190CC6F400069FEA /* UIKit.framework */,
@@ -114,9 +148,11 @@
 			children = (
 				E6D67C0D190CC6F400069FEA /* AppDelegate.h */,
 				E6D67C0E190CC6F400069FEA /* AppDelegate.m */,
+				E6D67C33190CC9EF00069FEA /* CalcTableViewController.h */,
+				E6D67C34190CC9EF00069FEA /* CalcTableViewController.m */,
+				E6D67C50190CE2E000069FEA /* NSString Common */,
+				E6D67C4F190CE2D600069FEA /* GoogleAnalytics */,
 				E6D67C10190CC6F400069FEA /* Main.storyboard */,
-				E6D67C13190CC6F400069FEA /* ViewController.h */,
-				E6D67C14190CC6F400069FEA /* ViewController.m */,
 				E6D67C16190CC6F400069FEA /* Images.xcassets */,
 				E6D67C05190CC6F400069FEA /* Supporting Files */,
 			);
@@ -128,6 +164,7 @@
 			children = (
 				E6D67C06190CC6F400069FEA /* BTU-Calc-Air-Conditioner-Info.plist */,
 				E6D67C07190CC6F400069FEA /* InfoPlist.strings */,
+				E6D67C3C190CCBB600069FEA /* Localizable.strings */,
 				E6D67C0A190CC6F400069FEA /* main.m */,
 				E6D67C0C190CC6F400069FEA /* BTU-Calc-Air-Conditioner-Prefix.pch */,
 			);
@@ -150,6 +187,29 @@
 				E6D67C26190CC6F500069FEA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6D67C4F190CE2D600069FEA /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				E6D67C49190CE2D200069FEA /* GAI.h */,
+				E6D67C4A190CE2D200069FEA /* GAIDictionaryBuilder.h */,
+				E6D67C4B190CE2D200069FEA /* GAIFields.h */,
+				E6D67C4C190CE2D200069FEA /* GAILogger.h */,
+				E6D67C4D190CE2D200069FEA /* GAITrackedViewController.h */,
+				E6D67C4E190CE2D200069FEA /* GAITracker.h */,
+				E6D67C5E190CE52500069FEA /* libGoogleAnalyticsServices.a */,
+			);
+			name = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		E6D67C50190CE2E000069FEA /* NSString Common */ = {
+			isa = PBXGroup;
+			children = (
+				E6D67C46190CDC3400069FEA /* NSString+Common.h */,
+				E6D67C47190CDC3400069FEA /* NSString+Common.m */,
+			);
+			name = "NSString Common";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +259,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Morbix;
 				TargetAttributes = {
+					E6D67BFA190CC6F400069FEA = {
+						DevelopmentTeam = U4D7MD5WUL;
+					};
 					E6D67C1B190CC6F500069FEA = {
 						TestTargetID = E6D67BFA190CC6F400069FEA;
 					};
@@ -211,6 +274,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pt,
 			);
 			mainGroup = E6D67BF2190CC6F400069FEA;
 			productRefGroup = E6D67BFC190CC6F400069FEA /* Products */;
@@ -229,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6D67C17190CC6F400069FEA /* Images.xcassets in Resources */,
+				E6D67C3A190CCBB600069FEA /* Localizable.strings in Resources */,
 				E6D67C09190CC6F400069FEA /* InfoPlist.strings in Resources */,
 				E6D67C12190CC6F400069FEA /* Main.storyboard in Resources */,
 			);
@@ -249,9 +314,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D67C15190CC6F400069FEA /* ViewController.m in Sources */,
+				E6D67C48190CDC3400069FEA /* NSString+Common.m in Sources */,
 				E6D67C0F190CC6F400069FEA /* AppDelegate.m in Sources */,
 				E6D67C0B190CC6F400069FEA /* main.m in Sources */,
+				E6D67C35190CC9EF00069FEA /* CalcTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +352,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				E6D67C11190CC6F400069FEA /* Base */,
+				E6D67C39190CCBAC00069FEA /* pt */,
+				E6D67C40190CCBC900069FEA /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -296,6 +364,16 @@
 				E6D67C27190CC6F500069FEA /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6D67C3C190CCBB600069FEA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D67C3B190CCBB600069FEA /* Base */,
+				E6D67C3D190CCBC000069FEA /* en */,
+				E6D67C3E190CCBC200069FEA /* pt */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -376,10 +454,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTU-Calc-Air-Conditioner/BTU-Calc-Air-Conditioner-Prefix.pch";
 				INFOPLIST_FILE = "BTU-Calc-Air-Conditioner/BTU-Calc-Air-Conditioner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BTU-Calc-Air-Conditioner",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1F945E73-6394-4FF5-BFD1-281F6F3E277E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +474,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTU-Calc-Air-Conditioner/BTU-Calc-Air-Conditioner-Prefix.pch";
 				INFOPLIST_FILE = "BTU-Calc-Air-Conditioner/BTU-Calc-Air-Conditioner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BTU-Calc-Air-Conditioner",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1F945E73-6394-4FF5-BFD1-281F6F3E277E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +548,7 @@
 				E6D67C2F190CC6F500069FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6D67C30190CC6F500069FEA /* Build configuration list for PBXNativeTarget "BTU-Calc-Air-ConditionerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +557,7 @@
 				E6D67C32190CC6F500069FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
